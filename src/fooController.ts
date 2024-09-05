@@ -12,7 +12,7 @@ export class FooController {
 
   /*
   TimeoutInterceptor works here.
-  Return response with status code 408.
+  Returns response with status code 408.
    */
   @Get()
   async getData() {
